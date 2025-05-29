@@ -5,9 +5,8 @@ import { useState } from 'react';
 import Modal from 'react-bootstrap/Modal';
 import { addHistoryApi, deleteVideoApi } from '../Services/allApis';
 
-
-function VideoCard({vid,delres,delStatus}) {
-    const [show, setShow] = useState(false);
+function Videocard1({vid,delres,delStatus}) {
+  const [show, setShow] = useState(false);
 
     // const {vid}=props
     // console.log(vid);
@@ -87,6 +86,7 @@ function VideoCard({vid,delres,delStatus}) {
 
    </>
   )
+  
 }
 
-export default VideoCard
+export default Videocard1

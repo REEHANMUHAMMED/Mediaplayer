@@ -1,5 +1,5 @@
 import React,{useEffect, useState} from 'react'
-import VideoCard from './VideoCard';
+import Videocard1 from './Videocard1';
 import { getVideosApi } from '../Services/allApis';
 
 function VideoList({add}) {
@@ -32,7 +32,8 @@ function VideoList({add}) {
         <div className='d-flex flex-wrap justify-content-around'>
             {
                 videos.map(item =>(
-                  <VideoCard vid={item} delres={setDeleteResponse}/> 
+                  
+                  <Videocard1 vid={item} delres={setDeleteResponse}/>
                 ))
             }
            

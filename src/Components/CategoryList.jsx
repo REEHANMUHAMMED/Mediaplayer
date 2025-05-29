@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import { addVideoToCategoryApi, deleteCategoryApi, getCategoryApi } from '../Services/allApis'
-import VideoCard from './VideoCard'
+import Videocard1 from './Videocard1'
 
 function CategoryList({addres}) {
 
@@ -84,7 +84,8 @@ const handleDrop=async(e,cat)=>{
             item.videos.length> 0 &&
             <>
             {item.videos?.map(video=>(
-              <VideoCard vid={video} delStatus={true}/>
+              
+              <Videocard1 vid={video} delStatus={true}/>
             ))}
             
             </>

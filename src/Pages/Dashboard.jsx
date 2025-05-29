@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import Addvideo from '../Components/Addvideo'
 import { Row,Col } from 'react-bootstrap'
-import VideoCard from '../Components/VideoCard'
+
 import Category from '../Components/Category'
 import { Link } from 'react-router-dom'
 import VideoList from '../Components/VideoList'
